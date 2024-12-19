@@ -25,7 +25,7 @@ setup(
     install_requires=[
         "anndata==0.8.0",
         "ipywidgets==7.6.5",
-        "matplotlib_inline==0.1.6",
+        "matplotlib_inline>=0.1.6",
         "matplotlib_venn==0.11.6",
         "matplotlib<3.7.0",
         "numpy-groupies>=0.9.14",
