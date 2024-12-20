@@ -11,8 +11,8 @@ from typing import Any
 from dataclasses import dataclass, field
 import numpy as np
 from scipy.stats import rankdata
-from tensorflow.keras.utils import to_categorical, normalize
-from tensorflow.keras.optimizers import Adam
+from tf_keras.utils import to_categorical, normalize
+from tf_keras.optimizers import Adam
 import tensorflow as tf
 
 

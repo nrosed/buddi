@@ -9,16 +9,16 @@ This is the full model used in the BuDDI manuscript.
 import warnings
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.layers import Input, Dense, Lambda, Flatten, Softmax, ReLU, ELU, LeakyReLU
-from tensorflow.keras.layers import concatenate as concat
-from tensorflow.keras.models import Model, Sequential
-from tensorflow.keras import backend as K
-from tensorflow.keras.losses import mean_absolute_error, mean_squared_error, kl_divergence
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.activations import relu, linear
-from tensorflow.keras.utils import to_categorical, normalize
-from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.optimizers import Adam, SGD
+from tf_keras.layers import Input, Dense, Lambda, Flatten, Softmax, ReLU, ELU, LeakyReLU
+from tf_keras.layers import concatenate as concat
+from tf_keras.models import Model, Sequential
+from tf_keras import backend as K
+from tf_keras.losses import mean_absolute_error, mean_squared_error, kl_divergence
+from tf_keras.datasets import mnist
+from tf_keras.activations import relu, linear
+from tf_keras.utils import to_categorical, normalize
+from tf_keras.callbacks import EarlyStopping
+from tf_keras.optimizers import Adam, SGD
 import matplotlib.pyplot as plt
 from scipy.spatial import distance_matrix
 from scipy.stats import spearmanr, pearsonr
